@@ -26,5 +26,6 @@ addButton.addEventListener('click', (ev) => {
             listElement.classList.toggle('checked-list');
         })
     }
+    document.addEventListener('touchmove', function() { e.preventDefault(); }, { passive:false });
 });
 
