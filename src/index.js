@@ -2,7 +2,7 @@ const inputElement = document.querySelector('input');
 const addButton = document.querySelector('form button');
 const ulElement = document.querySelector('ul');
 
-addButton.addEventListener('click', (ev) => {
+addButton.addEventListener('click', {passive: false},(ev) => {
     ev.preventDefault();
     if(inputElement.value) {
         const listElement = document.createElement('li');
