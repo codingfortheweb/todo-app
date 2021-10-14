@@ -2,8 +2,6 @@ const inputElement = document.querySelector('input');
 const addButton = document.querySelector('form button');
 const ulElement = document.querySelector('ul');
 
-document.addEventListener('touchmove', function() { e.preventDefault(); }, { passive:false });
-
 addButton.addEventListener('click', (ev) => {
     ev.preventDefault();
     if(inputElement.value) {
