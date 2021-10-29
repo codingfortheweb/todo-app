@@ -19,7 +19,6 @@ body {
   );
   margin: 0;
   padding: 0;
-
 }
 
 #todo-app-container {
@@ -28,7 +27,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 25px;
- 
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .todo-logo {
@@ -164,6 +164,8 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 footer span {
@@ -184,6 +186,7 @@ a:hover {
 }
 
 @media (max-width: 414px) {
+  html,
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -196,9 +199,14 @@ a:hover {
     text-align: center;
     width: 145px;
   }
+  footer {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 280px) {
+  html,
   body {
     max-width: 100%;
     overflow-x: hidden;
@@ -209,5 +217,9 @@ a:hover {
   footer span {
     text-align: center;
     width: 145px;
+  }
+  footer {
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
