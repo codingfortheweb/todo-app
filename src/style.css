@@ -15,6 +15,10 @@ body {
   padding: 0;
   max-width: 100%;
   overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
 }
 
 #todo-app-container {
@@ -186,8 +190,8 @@ a:hover {
     width: 145px;
   }
   footer {
-      max-width: 100%;
-      overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -200,7 +204,7 @@ a:hover {
     width: 145px;
   }
   footer {
-      max-width: 100%;
-      overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
