@@ -186,8 +186,8 @@ a:hover {
     width: 145px;
   }
   footer {
-    max-width: 100%;
-    overflow-x: hidden;
+      max-width: 100%;
+      overflow-x: hidden;
   }
 }
 
@@ -200,7 +200,7 @@ a:hover {
     width: 145px;
   }
   footer {
-    max-width: 100%;
-    overflow-x: hidden;
+      max-width: 100%;
+      overflow-x: hidden;
   }
 }
